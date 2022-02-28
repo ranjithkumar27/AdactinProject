@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="55.043277">
-<testcase classname="Validation of login page in adactin web application" name="TC01_Validation of login page with multiple valid test data" time="14.167917">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="59.192571">
+<testcase classname="Validation of login page in adactin web application" name="TC03_Validation of SearchHotel page by selecting location the dropdown" time="59.192571">
 <system-out><![CDATA[Given User launch the adactin web application...............................passed
 Then User verify whether login in page is displayed.........................passed
-When User eneters the valid "ranjithram" and valid password "OZG41A"........passed
-And User clicks the login button............................................passed
-Then User verify whether home page is displayed.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Validation of login page in adactin web application" name="TC01_Validation of login page with multiple valid test data 2" time="9.645584">
-<system-out><![CDATA[Given User launch the adactin web application...............................passed
-Then User verify whether login in page is displayed.........................passed
-When User eneters the valid "ranjithram" and valid password "OZG41A"........passed
-And User clicks the login button............................................passed
-Then User verify whether home page is displayed.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Validation of login page in adactin web application" name="TC01_Validation of login page with multiple valid test data 3" time="11.194981">
-<system-out><![CDATA[Given User launch the adactin web application...............................passed
-Then User verify whether login in page is displayed.........................passed
-When User eneters the valid "ranjithram" and valid password "OZG41A"........passed
-And User clicks the login button............................................passed
-Then User verify whether home page is displayed.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Validation of login page in adactin web application" name="TC01_Validation of login page with multiple valid test data 4" time="9.034218">
-<system-out><![CDATA[Given User launch the adactin web application...............................passed
-Then User verify whether login in page is displayed.........................passed
-When User eneters the valid "ranjithram" and valid password "OZG41A"........passed
-And User clicks the login button............................................passed
-Then User verify whether home page is displayed.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Validation of login page in adactin web application" name="TC01_Validation of login page with multiple valid test data 5" time="11.000577">
-<system-out><![CDATA[Given User launch the adactin web application...............................passed
-Then User verify whether login in page is displayed.........................passed
-When User eneters the valid "ranjithram" and valid password "OZG41A"........passed
-And User clicks the login button............................................passed
-Then User verify whether home page is displayed.............................passed
+When User enters the valid username and valid password......................passed
+And User clicks  login button in the home page..............................passed
+Then User verfiy  home page is displayed....................................passed
+When User click the select location dropdown and select the hotel location..passed
+Then User verify whether hotel location is selected.........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

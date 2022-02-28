@@ -4,389 +4,90 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "TC01_Validation of login page with multiple valid test data",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User eneters the valid \"\u003cuserNameAdactin\u003e\" and valid password \"\u003cuserPasswordAdactin\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "User clicks the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User verify whether home page is displayed",
-  "keyword": "Then "
-});
-formatter.examples({
+formatter.background({
   "name": "",
   "description": "",
-  "keyword": "Examples",
-  "rows": [
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User launch the adactin web application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.user_launch_the_adactin_web_application()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User verify whether login in page is displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC03_Validation of SearchHotel page by selecting location the dropdown",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "userNameAdactin",
-        "userPasswordAdactin"
-      ]
-    },
-    {
-      "cells": [
-        "ranjithram",
-        "OZG41A"
-      ]
-    },
-    {
-      "cells": [
-        "ranjithram",
-        "OZG41A"
-      ]
-    },
-    {
-      "cells": [
-        "ranjithram",
-        "OZG41A"
-      ]
-    },
-    {
-      "cells": [
-        "ranjithram",
-        "OZG41A"
-      ]
-    },
-    {
-      "cells": [
-        "ranjithram",
-        "OZG41A"
-      ]
+      "name": "@reg"
     }
   ]
 });
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "User launch the adactin web application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefinition.user_launch_the_adactin_web_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether login in page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC01_Validation of login page with multiple valid test data",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
+  "name": "User enters the valid username and valid password",
   "keyword": "When "
 });
 formatter.match({
-  "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
+  "location": "StepDefinition.user_enters_the_valid_username_and_valid_password()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User clicks the login button",
+  "name": "User clicks  login button in the home page",
   "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinition.user_clicks_the_login_button()"
+  "location": "StepDefinition.user_clicks_login_button_in_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User verify whether home page is displayed",
+  "name": "User verfiy  home page is displayed",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User launch the adactin web application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefinition.user_launch_the_adactin_web_application()"
+  "location": "StepDefinition.user_verfiy_home_page_is_displayed()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User verify whether login in page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC01_Validation of login page with multiple valid test data",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
+  "name": "User click the select location dropdown and select the hotel location",
   "keyword": "When "
 });
 formatter.match({
-  "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
+  "location": "StepDefinition.user_click_the_select_location_dropdown_and_select_the_hotel_location()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User clicks the login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepDefinition.user_clicks_the_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether home page is displayed",
+  "name": "User verify whether hotel location is selected",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User launch the adactin web application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefinition.user_launch_the_adactin_web_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether login in page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC01_Validation of login page with multiple valid test data",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User clicks the login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepDefinition.user_clicks_the_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether home page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User launch the adactin web application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefinition.user_launch_the_adactin_web_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether login in page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC01_Validation of login page with multiple valid test data",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User clicks the login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepDefinition.user_clicks_the_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether home page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User launch the adactin web application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefinition.user_launch_the_adactin_web_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether login in page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC01_Validation of login page with multiple valid test data",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User clicks the login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepDefinition.user_clicks_the_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verify whether home page is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
+  "location": "StepDefinition.user_verify_whether_hotel_location_is_selected()"
 });
 formatter.result({
   "status": "passed"

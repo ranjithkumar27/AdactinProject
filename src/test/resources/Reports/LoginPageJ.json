@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6046816900,
+              "duration": 46163778900,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 21240000,
+              "duration": 34803500,
               "status": "passed"
             },
             "line": 5,
@@ -36,11 +36,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-27T07:52:38.037Z",
+        "start_timestamp": "2022-02-27T17:27:01.579Z",
         "before": [
           {
             "result": {
-              "duration": 3364972700,
+              "duration": 3474899500,
               "status": "passed"
             },
             "match": {
@@ -48,14 +48,14 @@
             }
           }
         ],
-        "line": 14,
-        "name": "TC01_Validation of login page with multiple valid test data",
+        "line": 27,
+        "name": "TC03_Validation of SearchHotel page by selecting location the dropdown",
         "description": "",
-        "id": "validation-of-login-page-in-adactin-web-application;tc01-validation-of-login-page-with-multiple-valid-test-data;;2",
+        "id": "validation-of-login-page-in-adactin-web-application;tc03-validation-of-searchhotel-page-by-selecting-location-the-dropdown",
         "after": [
           {
             "result": {
-              "duration": 1371568400,
+              "duration": 1220391400,
               "status": "passed"
             },
             "match": {
@@ -64,501 +64,72 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 396372600,
+              "duration": 340716100,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
+            "line": 28,
+            "name": "User enters the valid username and valid password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"ranjithram\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"OZG41A\"",
-                  "offset": 55
-                }
-              ],
-              "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
+              "location": "StepDefinition.user_enters_the_valid_username_and_valid_password()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2881920700,
+              "duration": 7519998400,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User clicks the login button",
+            "line": 29,
+            "name": "User clicks  login button in the home page",
             "match": {
-              "location": "StepDefinition.user_clicks_the_login_button()"
+              "location": "StepDefinition.user_clicks_login_button_in_the_home_page()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 23654900,
+              "duration": 19440900,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User verify whether home page is displayed",
+            "line": 30,
+            "name": "User verfiy  home page is displayed",
             "match": {
-              "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
+              "location": "StepDefinition.user_verfiy_home_page_is_displayed()"
             },
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3160023100,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User launch the adactin web application",
-            "match": {
-              "location": "StepDefinition.user_launch_the_adactin_web_application()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 9733500,
+              "duration": 308307600,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User verify whether login in page is displayed",
+            "line": 31,
+            "name": "User click the select location dropdown and select the hotel location",
             "match": {
-              "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-27T07:52:52.205Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1929270600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.beforeExecution()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "TC01_Validation of login page with multiple valid test data",
-        "description": "",
-        "id": "validation-of-login-page-in-adactin-web-application;tc01-validation-of-login-page-with-multiple-valid-test-data;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1376561000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.afterExecution()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 379495300,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ranjithram\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"OZG41A\"",
-                  "offset": 55
-                }
-              ],
-              "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
+              "location": "StepDefinition.user_click_the_select_location_dropdown_and_select_the_hotel_location()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2761732100,
+              "duration": 59229800,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User clicks the login button",
+            "line": 32,
+            "name": "User verify whether hotel location is selected",
             "match": {
-              "location": "StepDefinition.user_clicks_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 18340000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User verify whether home page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
+              "location": "StepDefinition.user_verify_whether_hotel_location_is_selected()"
             },
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4440853800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User launch the adactin web application",
-            "match": {
-              "location": "StepDefinition.user_launch_the_adactin_web_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 14189200,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User verify whether login in page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-27T07:53:01.857Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1747202800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.beforeExecution()"
-            }
           }
         ],
-        "line": 16,
-        "name": "TC01_Validation of login page with multiple valid test data",
-        "description": "",
-        "id": "validation-of-login-page-in-adactin-web-application;tc01-validation-of-login-page-with-multiple-valid-test-data;;4",
-        "after": [
+        "tags": [
           {
-            "result": {
-              "duration": 1205962100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.afterExecution()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 356885800,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ranjithram\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"OZG41A\"",
-                  "offset": 55
-                }
-              ],
-              "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3398969400,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks the login button",
-            "match": {
-              "location": "StepDefinition.user_clicks_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 19385700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User verify whether home page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3030974600,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User launch the adactin web application",
-            "match": {
-              "location": "StepDefinition.user_launch_the_adactin_web_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 18939100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User verify whether login in page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-27T07:53:13.053Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1716792600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.beforeExecution()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "TC01_Validation of login page with multiple valid test data",
-        "description": "",
-        "id": "validation-of-login-page-in-adactin-web-application;tc01-validation-of-login-page-with-multiple-valid-test-data;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 1276720100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.afterExecution()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 316356900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ranjithram\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"OZG41A\"",
-                  "offset": 55
-                }
-              ],
-              "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2647667100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks the login button",
-            "match": {
-              "location": "StepDefinition.user_clicks_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 17051500,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User verify whether home page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4498664700,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User launch the adactin web application",
-            "match": {
-              "location": "StepDefinition.user_launch_the_adactin_web_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13238200,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User verify whether login in page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_login_in_page_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-27T07:53:22.087Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1697905900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.beforeExecution()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "TC01_Validation of login page with multiple valid test data",
-        "description": "",
-        "id": "validation-of-login-page-in-adactin-web-application;tc01-validation-of-login-page-with-multiple-valid-test-data;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 1321132500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.afterExecution()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 332318500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User eneters the valid \"ranjithram\" and valid password \"OZG41A\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ranjithram\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"OZG41A\"",
-                  "offset": 55
-                }
-              ],
-              "location": "StepDefinition.user_eneters_the_valid_and_valid_password(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3107537700,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks the login button",
-            "match": {
-              "location": "StepDefinition.user_clicks_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 19367600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User verify whether home page is displayed",
-            "match": {
-              "location": "StepDefinition.user_verify_whether_home_page_is_displayed()"
-            },
-            "keyword": "Then "
+            "name": "@reg"
           }
         ]
       }

@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\resources\\Feature",glue="com.definition",dryRun=false,monochrome=true,
 plugin= {"junit:src\\test\\resources\\Reports\\LoginPage.xml",
 		"json:src\\test\\resources\\Reports\\LoginPageJ.json",
-		"html:src\\test\\resources\\Reports"})
+		"html:src\\test\\resources\\Reports"},tags= {"@reg"})
 
 
 
